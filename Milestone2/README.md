@@ -1,5 +1,6 @@
 Milestone 2: Feature Extraction and Modeling
 
+OVERVIEW:
 Milestone 2 focuses on transforming preprocessed fitness data into meaningful insights by extracting time-series features, modeling temporal trends, and identifying behavioral patterns. This milestone prepares the data for anomaly detection in later stages.
 
 Feature Extraction:
