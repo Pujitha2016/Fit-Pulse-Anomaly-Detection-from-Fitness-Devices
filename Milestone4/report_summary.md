@@ -1,7 +1,8 @@
-Objective
+Objective:
 
 The objective of this milestone is to develop an interactive health anomaly detection dashboard that allows users to upload fitness data, 
 process it through analytical pipelines, visualize heart/sleep/steps insights, detect anomalies, and export reports for further analysis.
+
 
 Dashboard Workflow:
 1.Data Upload:
@@ -25,11 +26,12 @@ Step count trends + low-activity alerts
 6.Reporting:
 Anomalies are summarized in a table and can be downloaded as a CSV report.
 
+
 Tools & Technologies:
 Streamlit, Plotly, Pandas, Google Colab, pyngrok.
 
-Key Insights from the Dashboard:
 
+Key Insights from the Dashboard:
 Heart Rate Variability:
 Sudden spikes in heart rate are flagged, indicating potential stress or cardiac irregularity.
 
