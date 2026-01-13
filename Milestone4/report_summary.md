@@ -1,28 +1,43 @@
-Milestone-4 Report Summary
+Objective
 
-This milestone focuses on developing a Streamlit-based Health Anomaly Detection Dashboard 
-that enables users to upload their fitness data, process it through analytical pipelines, 
-visualize health metrics, and download anomaly reports for further evaluation.
+The objective of this milestone is to develop an interactive health anomaly detection dashboard that allows users to upload fitness data, 
+process it through analytical pipelines, visualize heart/sleep/steps insights, detect anomalies, and export reports for further analysis.
 
-Key Functionalities:
-1.File Upload (CSV/JSON): Users can import datasets directly into the dashboard for analysis.
+Dashboard Workflow:
+1.Data Upload:
+Users upload fitness data in CSV or JSON format through the dashboard.
 
-2.Integrated Pipeline: With a single action, the system performs:
--Data preprocessing.
--Feature engineering.
--Basic modeling.
--Anomaly detection across multiple metrics.
+2.Pipeline Execution:
+The system performs preprocessing, feature engineering, modeling, and anomaly detection with a single click.
 
-3.Interactive Visual Insights: Visualizations generated using Plotly include:
-Heart Rate Trends with anomaly markers.
-Sleep Duration highlighting abnormal patterns.
-Step Count Behavior with low activity alerts.
+3.Timestamp Mapping:
+A timestamp column is detected or generated for visualization purposes.
 
-4.Filtering & User Controls: Date range selection allows focused inspection of specific time periods.
-5.Automated Reporting: Anomaly results are summarized in a table and exported as a CSV report, useful for documentation and analysis.
+4.Date Filtering:
+Users select a date range to filter visual results.
+
+5.Visualization:
+Interactive Plotly charts display:
+Heart rate trends + anomaly markers
+Sleep duration patterns + abnormal highlights
+Step count trends + low-activity alerts
+
+6.Reporting:
+Anomalies are summarized in a table and can be downloaded as a CSV report.
 
 Tools & Technologies:
-Streamlit, Plotly, Pandas, JSON, Google Colab, pyngrok.
+Streamlit, Plotly, Pandas, Google Colab, pyngrok.
+
+Key Insights from the Dashboard:
+
+Heart Rate Variability:
+Sudden spikes in heart rate are flagged, indicating potential stress or cardiac irregularity.
+
+Sleep Behavior:
+Abnormally low (<4 hours) or high (>10 hours) sleep durations are detected and highlighted.
+
+Physical Activity Trends:
+Step count visualization helps identify sedentary behavior and low-activity days.
 
 Outcome:
 Milestone-4 successfully integrates previous components into a unified dashboard that is user-friendly,
