@@ -32,13 +32,13 @@ Streamlit, Plotly, Pandas, Google Colab, pyngrok.
 
 
 Key Insights from the Dashboard:
-Heart Rate Variability:
+1.Heart Rate Variability:
 Sudden spikes in heart rate are flagged, indicating potential stress or cardiac irregularity.
 
-Sleep Behavior:
+2.Sleep Behavior:
 Abnormally low (<4 hours) or high (>10 hours) sleep durations are detected and highlighted.
 
-Physical Activity Trends:
+3.Physical Activity Trends:
 Step count visualization helps identify sedentary behavior and low-activity days.
 
 Outcome:
